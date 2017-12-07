@@ -1,12 +1,10 @@
 var BasicCard = require("./BasicCard");
 
-// var myCards = [];
 
 var ClozeCard = function(text, cloze){
 	if(!(this instanceof ClozeCard)){
 		return new ClozeCard(text, cloze);
 	}
-	// this.myCards = [];
 	this.text = text,
 	this.cloze = cloze,
 	this.partial = text.replace(cloze, "...");

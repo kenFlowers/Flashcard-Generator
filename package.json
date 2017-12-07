@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kenFlowers/Flashcard-Generator#readme",
   "dependencies": {
-    "flashcardz": "^1.0.0"
+    "flashcardz": "^1.0.0",
+    "inquirer": "^4.0.1"
   }
 }
